@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background: #f0f4f8;
     width: 100;
@@ -8,36 +14,9 @@ body {
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-    /* padding: 1rem; */
     margin: 0;
     overflow: hidden;
-    /* border: 10px dashed greenyellow; */
 }
-
-
-
-.site-header {
-    background-color: #fff;
-    width: 100%;
-    padding: 0;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-}
-
-
-
-.site-title {
-    padding: 1rem;
-    margin: 0;
-    font-size: 2.4rem;
-    font-weight: 600;
-    color: #0077ff;
-    font-family: 'Poppins', sans-serif;
-}
-
 
 
 
@@ -55,6 +34,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 5rem 5rem;
 }
 
 form {
@@ -115,11 +95,12 @@ footer {
     width: 100%;
     margin: 0;
     padding: 0;
-    
+
 }
 
 
 .footer {
+    margin-right: 1rem;
     background: #fff;
     width: 100vw;
     padding: 20px 0px;
@@ -127,6 +108,7 @@ footer {
     text-align: center;
     padding-bottom: 0.5rem;
     box-shadow: 0 -8px 10px rgba(0, 0, 0, 0.1);
+    
 }
 
 .footer .row {
@@ -164,33 +146,14 @@ footer {
 header,
 footer {
     background-color: #fff;
-    /* Adjust the background color as needed */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    /* Adjust the shadow values */
-    /* padding: 20px; */
-    /* Adjust padding as needed */
 }
 
 
 
 
 
-@media only screen and (max-width:720px) {
-    .footer {
-        text-align: left;
-        padding: 5%;
-    }
 
-    .footer .row ul li {
-        display: block;
-        margin: 10px 0px;
-        text-align: left;
-    }
-
-    .footer .row a i {
-        margin: 0% 3%;
-    }
-}
 
 /* 🔽 For devices with width <= 500px */
 
